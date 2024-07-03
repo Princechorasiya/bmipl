@@ -1,1 +1,555 @@
 /* //global class and variables  */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+
+/* 
+============================
+fonts 
+============================
+ */
+
+/* font lato  */
+/* Header/Footer: DA6400 (primary) with #FFFFFF (text) Buttons/Links: #4B8B3B (forest green) with #FFFFFF (text) Background: #F5F5F5 (light gray) with accents of #FFE082 (light golden yellow) Text: #A0A0A0 (medium gray) on #FFFFFF (background) */
+:root {
+  /* dark shades of primary color*/
+  /* heading: */
+  --clr-primary-1: hsl(184, 91%, 17%);
+  /* background:    */
+
+  --clr-primary-bg-1: #DA6400;
+  --clr-primary-bg-3: #E78B7A;
+  --clr-primary-bg-5: #F3DED8;
+  /* primary/main color */
+  --clr-primary-5: hsl(185, 62%, 45%);
+  /* lighter shades of primary color */
+  --clr-rustic-brown: #8B4513;
+  --clr-soft-white: #F5F5DC;
+  --clr-muted-yellow: #DAA520;
+  --clr-sustain-1: #4B8B3B;
+  --clr-sustain-5: #8DBF42;
+  --clr-sustain-10: #A6C999;
+  --clr-primary-10: hsl(186, 100%, 94%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+
+  --clr-footer-5: #0d1a2dd7;
+  --clr-footer-1: #06152A;
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-black: #000;
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --ff-primary: "Lato", sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --hover-changes: rgba(0, 0, 0, 0.9);
+}
+
+
+
+/* 
+============================
+global styles  
+============================
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: var(--ff-primary);
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+img:not(.nav-logo) {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 0.875rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-110);
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
+
+.btn {
+  text-transform: uppercase;
+  background: var(--clr-primary-bg-1);
+  color: var(--clr-white);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  /* font-weight: 700; */
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+.btn:hover {
+  color: var(--clr-primary-bg-5);
+  background: var(--hover-changes);
+}
+
+
+.icon-img-container {
+  /* height: 20px; */
+  width: 2.5rem;
+  display: flex;
+
+  /* display: block; */
+  object-fit: cover;
+}
+
+.icon-img {
+  width: 100%;
+  flex: 1 1 2.5rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+
+}
+
+.section-title h2 {
+  text-transform: uppercase;
+}
+
+
+
+.section-title span {
+  color: var(--clr-primary-bg-1);
+}
+
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  /* background: red; */
+}
+
+
+@media screen and (min-width:992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+
+
+/* 
+============================
+end of global ccss 
+============================
+ */
+
+/* 
+ ============================
+ navbar 
+ ============================
+  */
+
+/* 
+  ============================
+  end of navbar  
+  ============================
+   */
+
+/* 
+============================
+hero section  
+============================
+ */
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 2s ease-in-out;
+  width: 200%;
+
+  /* Double the width for two slides */
+}
+
+
+
+.slide {
+  width: 50%;
+  flex-shrink: 0;
+  position: relative;
+
+}
+
+.slide img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.caption h1 {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+  color: var(--clr-primary-bg-1);
+  max-width: 35rem;
+  /* position: fixed; */
+}
+
+.caption p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  background-color: var(--clr-primary-bg-1);
+  transition: var(--transition);
+  color: white;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 400px;
+  border-radius: 5px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.hero-btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+}
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  border-radius: var(--radius);
+}
+
+
+.typewriter {
+  /* border-right: 0.1em solid white; */
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+
+
+  50% {
+    border-color: white;
+  }
+
+
+}
+
+.hide-display {
+  display: none;
+}
+
+.navigation-icon {
+  font-size: 0.5rem;
+  padding: 0.2rem 0.1rem;
+  display: block;
+
+}
+
+@media screen and (min-width:576px) {
+  .caption h1 {
+    font-size: 3rem;
+    margin-bottom: 0.8rem;
+    color: var(--clr-primary-bg-1);
+    max-width: 35rem;
+    /* position: fixed; */
+  }
+
+  .caption p {
+    font-size: 1.5rem;
+
+  }
+
+  .navigation-icon {
+    font-size: 1rem;
+    padding: 0.5rem 0.25rem;
+
+
+  }
+
+
+}
+
+
+@media screen and (min-width:776px) {
+  .hero-btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
+
+/* 
+============================
+hero section ends  
+============================
+ */
+
+/* 
+============================
+services start  
+============================
+ */
+
+
+.services {
+  background: var(--clr-grey-10);
+
+}
+
+.service {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 0.375rem 0.75rem;
+  transition: var(--transition);
+}
+
+.service-icon {
+  background: var(--clr-primary-bg-1);
+
+  color: var(--clr-primary-bg-1);
+  padding: 0.5rem;
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius);
+  transition: var(--transition);
+}
+
+
+.service-text {
+  max-width: 20rem;
+  margin: 0 auto;
+
+
+}
+
+.service-title {
+  font-size: 1.25rem;
+  color: var(--clr-grey-1);
+  transition: var(--transition);
+
+}
+
+.service-text {
+  font-size: 0.875rem;
+  color: var(--clr-grey-5);
+}
+
+
+
+@media screen and (min-width:576px) {
+  .services-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .service {
+    flex: 0 0 calc(50% - 1rem);
+
+
+  }
+}
+
+@media screen and (min-width:992px) {
+
+  .services-center {
+    justify-content: space-between;
+    gap: 1.33rem;
+    margin: 0 auto;
+
+
+  }
+
+  .service {
+    flex: 0 0 calc(50%-3rem);
+    padding: 0.75rem 1.5rem;
+    max-width: 35rem;
+
+
+  }
+}
+
+
+@media screen and (min-width:1170px) {
+
+
+
+
+  .service {
+    display: flex;
+    text-align: left;
+    align-self: center;
+  }
+
+  .service-icon {
+    align-self: start;
+
+
+  }
+
+  .service-info {
+    padding-left: 1rem;
+  }
+
+  .service-title {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.service:hover {
+  box-shadow: var(--light-shadow);
+  cursor: pointer;
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  transition: var(--transition);
+}
+
+.service:hover .service-title {
+  color: var(--clr-primary-bg-3);
+}
+
+.service:hover .service-icon {
+  background: var(--hover-changes);
+}
+
+.section-title h2 {
+  position: relative;
+}
+
+.section-title h2::before {
+  content: "";
+  background: var(--clr-primary-bg-1);
+  height: 0.3rem;
+  width: 4rem;
+  position: absolute;
+  /* left: 50%; */
+  bottom: 0;
+  border-radius: 3px;
+  text-align: center;
+}
+
+/* 
+ ============================
+ services end 
+ ============================
+  */
