@@ -148,6 +148,7 @@ p {
 
 .btn {
   text-transform: uppercase;
+  text-align: center;
   background: var(--clr-primary-bg-1);
   color: var(--clr-white);
   padding: 0.375rem 0.75rem;
@@ -184,6 +185,7 @@ p {
 
 .section {
   padding: 4rem 0;
+  width: 100%;
 }
 
 .section-title {
@@ -487,6 +489,18 @@ services start
 
 
   }
+
+  .service-text {
+    font-size: 1rem;
+
+  }
+
+  .service-title {
+    font-size: 2rem;
+
+  }
+
+
 }
 
 
@@ -514,6 +528,8 @@ services start
   .service-title {
     margin-bottom: 0.5rem;
   }
+
+
 }
 
 .service:hover {
@@ -566,17 +582,27 @@ product section start
 
 
 .products {
-  height: 100vh;
+  /* height: 100vh; */
   background: var(--clr-white);
 
-  width: 85vw;
+  width: 85%;
   margin: 0 auto;
+  transition: all 4s ease-in-out;
+}
+
+.product-1 {
+  background: var(--clr-white);
+  width: 100%;
+  transition: all 4s ease-in-out;
 }
 
 .product-container {
   display: flex;
   flex-direction: column;
+  width: 90%;
+  margin: auto;
   gap: 2rem;
+  transition: all 4s ease-in-out;
 
 }
 
@@ -584,7 +610,7 @@ product section start
   border-left: 3px solid red;
   min-height: 10vh;
   background: linear-gradient(var(--clr-primary-bg-5), #f8dfca90);
-  transition: var(--transition);
+  transition: all 4s ease-in-out;
   padding: 1rem 1.5rem;
   box-shadow: var(--dark-shadow);
   border-radius: var(--radius);
@@ -595,10 +621,12 @@ product section start
 
 .product-info {
   display: none;
+
 }
 
 .product-info {
   min-width: 10rem;
+  transition: all 4s ease-in-out;
 }
 
 .product-info h2 {
@@ -641,7 +669,7 @@ product section start
 
 
 .product-item:hover {
-  min-height: 110vh;
+
   background: var(--clr-white);
 }
 
@@ -664,6 +692,9 @@ product section start
 }
 
 
+.product-item {
+  padding: 1rem 1.5rem;
+}
 
 /* 
 ============================
@@ -672,22 +703,23 @@ accordian classes
  */
 
 .accordion .product-item {
-  height: 60vh;
+  height: 77vh;
+  min-height: 650px;
 }
 
 .accordion {
-  width: 100%;
-  min-height: 50vh;
+  width: 95%;
+  min-height: 70vh;
   overflow: hidden;
   margin: 0px auto;
 }
 
 .accordion ul {
-  width: 95%;
+  width: 100%;
   display: table;
   table-layout: fixed;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
 }
 
 .accordion ul li {
@@ -710,7 +742,7 @@ accordian classes
 .accordion ul li div a {
   display: block;
   height: 90px;
-  width: 100%;
+  width: 50%;
   position: relative;
   z-index: 3;
   vertical-align: bottom;
@@ -770,36 +802,43 @@ accordian classes
   object-fit: cover;
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
+  border-bottom: 3px solid red;
 }
 
 .accordion ul li:nth-child(2) {
   background: url("../images/products/wpp.png") center/cover no-repeat;
   /* background-position: 50% 0%; */
+  border-bottom: 3px solid black;
 }
 
 .accordion ul li:nth-child(3) {
   background: url("../images/products/bopp.png") center/cover no-repeat;
   background-position: 50% 0%;
+  border-bottom: 3px solid red;
 }
 
 .accordion ul li:nth-child(4) {
   background: url("../images/products/rpbag.png") center/cover no-repeat;
   background-position: 50%;
+  border-bottom: 3px solid black;
 }
 
 .accordion ul li:nth-child(5) {
   background: url("../images/products/bio-degradable.jpeg") center/cover no-repeat;
   background-position: 60% 64%;
+  border-bottom: 3px solid red;
 }
 
 .accordion ul li:nth-child(6) {
   background: url("../images/products/fabric.png") center/cover no-repeat;
   background-position: 70% 25%;
+  border-bottom: 3px solid black;
 }
 
 .accordion ul li:nth-child(7) {
   background: url("../images/products/fibc.png") center/cover no-repeat;
   background-position: 50% 30%;
+  border-bottom: 3px solid red;
 }
 
 /* 
@@ -880,7 +919,7 @@ accordian classes
   /* color: yellow; */
   top: 0;
   right: 0;
-  width: 50%;
+  width: 60%;
 
 }
 
@@ -892,9 +931,11 @@ accordian classes
   display: block;
 }
 
+
+
 .product-2 {
   display: none;
-  height: 65vh;
+  min-height: 70vh;
 }
 
 @media screen and (min-width:772px) {
@@ -904,15 +945,22 @@ accordian classes
 
   .product-2 {
     display: block;
+    background: var(--clr-white);
+    width: 100%;
+    ;
   }
 }
 
 
+.info {
+  padding: 1rem 1.5rem;
+}
 
 .product-info-heading h2 {
   text-align: center;
   text-transform: capitalize;
   margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 .product-info-description h3 {
@@ -938,6 +986,46 @@ accordian classes
   font-size: 0.8rem;
   margin: 0;
   color: var(--clr-grey-5)
+}
+
+
+@media screen and (min-width:992px) {
+  .info p {
+    font-size: 1rem;
+  }
+
+  .info h3 {
+    font-size: 1.5rem;
+
+
+  }
+}
+
+.sliderLink {
+  transition: var(--transition);
+}
+
+.sliderLink:hover {
+  color: var(--clr-primary-bg-1);
+}
+
+
+.product-explore .product-btn {
+  height: 50px;
+  text-align: center;
+  width: 70%;
+  /* margin-top: 1rem; */
+  margin: 1rem auto;
+}
+
+.product-info .product-explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-info .product-explore .product-btn {
+  width: 50%;
 }
 
 /* 
