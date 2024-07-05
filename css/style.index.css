@@ -81,7 +81,7 @@ a {
 
 
 img:not(.nav-logo) {
-  width: 100%;
+  /* width: 100%; */
   display: block;
 }
 
@@ -666,9 +666,10 @@ product section start
 
 
 .product-img {
-  width: 100%;
+  width: 50%;
   height: 80%;
   object-fit: fill;
+  aspect-ratio: 9/10;
   /* opacity: 0; */
 }
 
@@ -685,6 +686,8 @@ product section start
 
 .product-item:hover .product-content {
   height: 40vh;
+  display: flex;
+  justify-content: center;
 }
 
 .product-item:hover h4 {
@@ -1317,4 +1320,162 @@ contact section start
   .form-contact {
     width: 50%;
   }
+}
+
+/* 
+============================
+/* make in india section  
+============================
+*/
+.make-in-india {
+  width: 100%;
+  background: var(--clr-white);
+}
+
+.make-in-india-title {
+  margin-bottom: 1rem;
+}
+
+.mii-content {
+  color: var(--clr-grey-5)
+}
+
+.mii {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--clr-primary-bg-1);
+  color: var(--clr-grey-1)
+}
+
+.mii-center {
+  position: relative;
+  height: 50vh;
+  padding: 2rem 1rem;
+  /* Optional, for better visibility */
+}
+
+.section-center .content {
+  padding: 0 1.5rem;
+}
+
+.flag-background {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  background: linear-gradient(to bottom,
+      #FF9933 33%,
+      #FFFFFF 33%,
+      #FFFFFF 66%,
+      #138808 66%);
+  z-index: 1;
+  opacity: 0.4;
+  /* Start with opacity 0 */
+  transition: opacity 0.5s ease;
+  /* Smooth transition */
+}
+
+.flag-background::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background: url('ashoka-chakra.png') no-repeat center center;
+  background-size: contain;
+  opacity: 0.2;
+  /* Subtle effect */
+  transform: translate(-50%, -50%);
+}
+
+.overlay-image {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  z-index: 2;
+  transition: opacity 0.5s ease;
+  /* aspect-ratio: 16 / 9; */
+}
+
+
+.mii-center:hover .flag-background {
+  opacity: 1;
+  /* Increases opacity to show background on hover */
+}
+
+
+.section-title .span2 {
+  color: #138808;
+}
+
+@media screen and (min-width:776px) {
+  .make-center {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mii-center {
+    width: 45%;
+    height: auto;
+  }
+
+  .content {
+    width: 50%;
+    height: auto;
+  }
+}
+
+/* 
+============================
+footer  
+============================
+ */
+
+.footer {
+  background: #051829;
+  text-align: center;
+  padding: 2rem;
+
+}
+
+.footer-links,
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: var(--clr-white);
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 1rem;
+  letter-spacing: var(--spacing);
+  transition: var(--transition);
+}
+
+.footer-link:hover {
+  color: var(--clr-primary-5);
+}
+
+.footer-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: var(--clr-primary-8);
+  transition: var(--transition);
+}
+
+.footer-icon:hover {
+  color: var(--clr-primary-5)
+}
+
+.copyright {
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  color: var(--clr-white)
 }
