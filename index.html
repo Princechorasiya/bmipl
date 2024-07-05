@@ -12,9 +12,67 @@
 
 <body>
 
+  <!-- navbar  -->
+  <!-- navbar  -->
+  <nav class="navbar">
+    <div class="nav-center open">
+      <div class="nav-header">
+        <img src="./images/logos/bimpl.png" alt="" class="nav-logo" id="nav-logo">
+
+
+        <button type="button" class="nav-toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <!-- <end of nav header  -->
+      <div class="nav-link-container">
+
+
+
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="#home" class="nav-link  scroll-link">home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link  scroll-link">about</a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link  scroll-link">services</a>
+          </li>
+          <li>
+            <a href="#products" class="nav-link  scroll-link">products</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link  scroll-link">contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-icons">
+        <div class="award-icon">
+          <a href="#" class="award-logo">
+            <span>
+              <i class="fas fa-award"></i>
+            </span>
+          </a>
+        </div>
+        <div class="award-content">
+          <h4>global certified</h4>
+          <p>ISO 9001:2015</p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </nav>
+
+  <!-- navbar end  -->
+
 
   <!-- start of hero section  -->
-  <section class="hero">
+  <section class="hero" id="home">
     <div class="slider">
       <div class="slides">
         <div class="slide" id="slide1">
@@ -49,7 +107,7 @@
   <!-- end of hero section  -->
 
   <!-- start of service -->
-  <section class="services section">
+  <section class="services section" id="services">
 
     <div class="services-heading section-title">
 
@@ -147,7 +205,7 @@
   <!-- end of services -->
 
   <!-- //start of product 1  -->
-  <section class="products section product-1">
+  <section class="products section product-1" id="products1">
 
     <!-- section heading  -->
     <div class="product-heading section-title">
@@ -404,7 +462,7 @@
   </section>
 
   <!-- product 2  -->
-  <section class="products section product-2">
+  <section class="products section product-2" id="products">
     <div class="product-heading section-title">
 
 
@@ -713,7 +771,7 @@
   <!-- end of products  -->
 
   <!-- faq start  -->
-  <section class="section about-faq">
+  <section class="section about-faq" id="about">
     <!-- about section  -->
 
     <article class=" about">
@@ -807,7 +865,7 @@
   <!-- faq end  -->
 
   <!-- contact start  -->
-  <section class="section contacts">
+  <section class="section contacts" id="contact">
 
     <!-- contact st  -->
     <article class="contact">
@@ -914,13 +972,13 @@
         <a href="#about" class="footer-link scroll-link">about</a>
       </li>
       <li>
+        <a href="#products" class="footer-link scroll-link">products</a>
+      </li>
+      <li>
         <a href="#services" class="footer-link scroll-link">services</a>
       </li>
       <li>
-        <a href="#featured" class="footer-link scroll-link">featured</a>
-      </li>
-      <li>
-        <a href="#gallery" class="footer-link scroll-link">gallery</a>
+        <a href="#contact" class="footer-link scroll-link">contact</a>
       </li>
     </ul>
 
@@ -944,12 +1002,15 @@
     </ul>
 
     <p class="copyright">
-      copyright &copy; backroads travel tour company <span id="date"></span> all rights reserved.
+      copyright &copy; <span id="date"></span>BIMPL All Rights Reserved.
     </p>
 
   </footer>
 
   <!-- footer end  -->
+
+  <!-- top button  -->
+  <button id="back-to-top" title="Back to Top">&#9650;</button>
   <!-- scripts  -->
   <script src="./scripts/app.js"></script>
 </body>

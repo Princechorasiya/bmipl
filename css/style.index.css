@@ -18,7 +18,7 @@ fonts
 
   --clr-primary-bg-1: #DA6400;
   --clr-primary-bg-3: #E78B7A;
-  --clr-primary-bg-5: #F3DED8;
+  --clr-primary-bg-5: #e5b2a4;
   /* primary/main color */
   --clr-primary-5: hsl(185, 62%, 45%);
   /* lighter shades of primary color */
@@ -220,6 +220,22 @@ p {
 }
 
 
+/* animations */
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
 /* 
 ============================
 end of global ccss 
@@ -228,9 +244,210 @@ end of global ccss
 
 /* 
  ============================
- navbar 
+ navbar  a52a2a
  ============================
   */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #d3d3d3;
+  box-shadow: var(--dark-shadow);
+  z-index: 8
+}
+
+.nav-icons {
+  display: none;
+}
+
+.nav-center {
+  width: 100%;
+  /* max-width: 1170px; */
+  margin: 0 auto;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-toggle {
+  background: transparent;
+  border: transparent;
+  font-size: 1.5rem;
+  color: var(--clr-primary-bg-1);
+  transition: var(--transition);
+  cursor: pointer;
+  animation: bounce 2s ease infinite;
+}
+
+.nav-toggle :hover {
+  transform: scale(1.2);
+}
+
+.nav-link {
+  display: block;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  transition: var(--transition);
+  color: var(--clr-grey-1);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: var(--clr-primary-bg-1);
+  background: var(--clr-primary-8);
+  padding-left: 2.25rem;
+  border-left: 5px solid var(--clr-primary-bg-1);
+}
+
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.show-links {
+  height: 300px;
+}
+
+@media screen and (min-width:992px) {
+
+  .nav-toggle {
+
+    display: none;
+  }
+
+  /* .nav-header {
+    width: 25%;
+  } */
+
+  .navbar {
+    padding: 1rem 0.5rem;
+  }
+
+  .nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+
+  }
+
+  .show-links {
+    height: 90px;
+  }
+
+
+
+  .nav-links {
+    height: auto;
+
+    display: flex;
+    /* gap: 0.5rem */
+    /* flex: 1 1 auto; */
+
+  }
+
+
+  .nav-header {
+    padding: 0 0;
+  }
+
+  .nav-link {
+    padding: 0 0;
+    margin-right: 0.7rem;
+  }
+
+  .nav-link:hover {
+    padding: 0 0;
+    border: none;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+
+  }
+
+
+
+  .nav-links:hover {
+    padding: 0 0;
+    color: var(--clr-primary-5);
+
+    background: transparent;
+  }
+
+  .nav-icons {
+    display: flex;
+    width: 18%;
+  }
+
+  .award-icon {
+
+    align-items: center;
+    display: flex;
+    transition: var(--transition);
+  }
+
+  .award-icon span {
+    color: var(--clr-primary-bg-3);
+  }
+
+  .nav-icon {
+
+
+    font-size: 2rem;
+    width: 100%;
+    display: block;
+
+    transition: var(--transition);
+    color: var(--clr-primary-bg-5)
+  }
+
+  .nav-icon:hover {
+    color: var(--clr-primary-bg-1)
+  }
+
+  .award-content {
+    margin-left: 1rem;
+    display: flex;
+    transition: var(--transition);
+    flex-direction: column;
+  }
+
+  .award-content h4 {
+    transition: var(--transition);
+    margin-bottom: 0rem;
+  }
+
+  .award-content:hover h4 {
+    color: var(--clr-primary-bg-1);
+  }
+
+  .award-content p {
+    margin-bottom: 0rem;
+    font-size: 0.875rem;
+    color: var(--clr-grey-5)
+  }
+
+  .nav-icon:hover {
+    color: var(--clr-primary-bg-1)
+  }
+
+
+
+}
+
+@media screen and (min-width:1170px) {
+  .nav-links li {
+    margin: 0 1rem;
+  }
+}
 
 /* 
   ============================
@@ -274,6 +491,7 @@ hero section
   height: 100vh;
   object-fit: cover;
   object-position: center;
+  z-index: -1;
 }
 
 .caption {
@@ -315,6 +533,7 @@ hero section
   top: 75%;
   left: 50%;
   transform: translate(-50%, 50%);
+  outline: 0.125rem solid var(--clr-white);
 }
 
 .hero-btn:hover {
@@ -1035,7 +1254,7 @@ accordian classes
 .product-explore:hover .product-btn {
   pointer-events: auto;
   cursor: pointer;
-  background: red;
+
 }
 
 
@@ -1373,7 +1592,7 @@ contact section start
 .mii-center {
   position: relative;
   height: 50vh;
-  padding: 2rem 1rem;
+  /* padding: 2rem 1rem; */
   /* Optional, for better visibility */
 }
 
@@ -1395,6 +1614,7 @@ contact section start
   opacity: 0.4;
   /* Start with opacity 0 */
   transition: opacity 0.5s ease;
+  overflow: hidden;
   /* Smooth transition */
 }
 
@@ -1419,14 +1639,24 @@ contact section start
   object-fit: cover;
   object-position: center;
   z-index: 2;
+  transition: var(--transition);
   transition: opacity 0.5s ease;
+
+  overflow: hidden;
+
   /* aspect-ratio: 16 / 9; */
 }
 
 
 .mii-center:hover .flag-background {
   opacity: 1;
+  transform: scale(1.05);
+  box-shadow: var(--dark-shadow);
   /* Increases opacity to show background on hover */
+}
+
+.mii-center:hover .overlay-image {
+  transform: scale(1.05);
 }
 
 
@@ -1475,29 +1705,74 @@ footer
 .footer-link {
   color: var(--clr-white);
   text-transform: capitalize;
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-right: 1rem;
   letter-spacing: var(--spacing);
   transition: var(--transition);
 }
 
 .footer-link:hover {
-  color: var(--clr-primary-5);
+  transform: scale(1.1);
+  color: var(--clr-primary-bg-1);
 }
 
 .footer-icon {
   font-size: 2rem;
   margin-right: 1rem;
-  color: var(--clr-primary-8);
+  color: var(--clr-primary-bg-5);
   transition: var(--transition);
 }
 
 .footer-icon:hover {
-  color: var(--clr-primary-5)
+  color: var(--clr-primary-bg-1)
 }
 
 .copyright {
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   color: var(--clr-white)
+}
+
+/* 
+============================
+top button  
+============================
+ */
+#back-to-top {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed position */
+  bottom: 10px;
+  /* 20px from the bottom */
+  right: 20px;
+  /* 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: var(--clr-primary-bg-5);
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 10px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 1.5rem;
+  /* Increase font size */
+}
+
+#back-to-top:hover {
+  background-color: var(--clr-primary-bg-1);
+  /* Darker background on hover */
+}
+
+
+.show-links {
+  height: 280px;
 }
