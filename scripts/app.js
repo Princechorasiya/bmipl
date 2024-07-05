@@ -97,3 +97,5 @@ document.querySelectorAll(".faq-question").forEach((question) => {
 		}
 	});
 });
+
+//disable the rest of the links in the product section

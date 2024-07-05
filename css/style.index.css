@@ -1000,6 +1000,7 @@ accordian classes
 }
 
 
+
 @media screen and (min-width:992px) {
   .info p {
     font-size: 1rem;
@@ -1024,16 +1025,37 @@ accordian classes
 .product-explore .product-btn {
   height: 50px;
   text-align: center;
-  width: 100%;
+  width: 60%;
   /* min-width: 500px; */
   /* margin-top: 1rem; */
   margin: 1rem auto;
+  pointer-events: none;
 }
+
+.product-explore:hover .product-btn {
+  pointer-events: auto;
+  cursor: pointer;
+  background: red;
+}
+
 
 .product-info .product-explore {
   display: flex;
   /* align-items: center; */
   justify-content: center;
+}
+
+
+@media screen and (min-width:776px) {
+  .product-explore .product-btn {
+    width: 100%;
+  }
+
+  .product-explore .product-btn {
+    pointer-events: auto;
+    cursor: pointer;
+    /* background: red; */
+  }
 }
 
 
