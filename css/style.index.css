@@ -1198,6 +1198,7 @@ contact section start
 
 .contact {
   padding: 2rem 1rem;
+
 }
 
 .contact-form {
@@ -1213,12 +1214,14 @@ contact section start
 }
 
 .contact-items {
-  max-width: 50%;
+  max-width: 100%;
+  /* text-align: center; */
 }
 
 .contact-item a {
   color: var(--clr-white);
   max-width: 100%;
+  margin: 0 auto;
 }
 
 .contact-item i {
@@ -1305,6 +1308,10 @@ contact section start
 
   .contact {
     width: 50%;
+  }
+
+  .contact-items {
+    max-width: 50%;
   }
 
   .form-contact {
