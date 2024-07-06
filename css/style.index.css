@@ -1244,7 +1244,7 @@ accordian classes
 .product-explore .product-btn {
   height: 50px;
   text-align: center;
-  width: 60%;
+  width: 100%;
   /* min-width: 500px; */
   /* margin-top: 1rem; */
   margin: 1rem auto;
@@ -1591,9 +1591,29 @@ contact section start
 
 .mii-center {
   position: relative;
-  height: 50vh;
+  height: 45vh;
+
   /* padding: 2rem 1rem; */
   /* Optional, for better visibility */
+}
+
+@media screen and (max-width:700px) {
+  .mii-center {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .mii-center {
+    height: 35vh;
+  }
+}
+
+
+@media screen and (max-width:370px) {
+  .mii-center {
+    height: 25vh;
+  }
 }
 
 .section-center .content {
@@ -1615,6 +1635,7 @@ contact section start
   /* Start with opacity 0 */
   transition: opacity 0.5s ease;
   overflow: hidden;
+
   /* Smooth transition */
 }
 
