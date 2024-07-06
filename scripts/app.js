@@ -1,8 +1,6 @@
 // hero functionality
 // ********** set date ************
 // select span
-const date = (document.getElementById("date").innerHTML =
-	new Date().getFullYear());
 
 // ********** nav toggle ************
 // select button and links
@@ -180,3 +178,6 @@ window.addEventListener("resize", () => {
 		navmenu.classList.remove("open");
 	}
 });
+
+const date = (document.getElementById("date").innerHTML =
+	new Date().getFullYear());
