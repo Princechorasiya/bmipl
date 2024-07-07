@@ -1,0 +1,573 @@
+<div class="accordion">
+  <ul>
+    <li class="product-item">
+      <div c>
+        <div class="product-rotate">
+
+          <a href="#" class="sliderLink">
+            <h2>pp bags</h2>
+          </a>
+        </div>
+
+        <!-- //info start  -->
+        <div class="info">
+          <div class="product-info">
+            <div class="product-info-heading">
+
+              <h2>pp bags</h2>
+            </div>
+            <div class="product-info-description">
+              <h3>description</h3>
+              <p>Polypropylene bags, also referred to as PP bags, are a type of thermoplastic resin material derived
+                from
+                the
+                polymerization of propylene. Woven polypropylene comprises polypropylene strips or threads woven in
+                both
+                warp and weft
+                directions, resulting in a lightweight yet durable and robust material.</p>
+            </div>
+
+            <div class="product-info-benefits">
+              <h3>benefits</h3>
+              <p>Polypropylene bags are versatile, durable, and eco-friendly, ideal for various applications. They
+                are
+                non-toxic,
+                stain-resistant, and easy to clean. Lightweight and reusable, they offer options for breathability
+                or
+                waterproofing and
+                withstand high temperatures and chemicals effectively.</p>
+            </div>
+          </div>
+          <div class="product-explore">
+
+            <a href="" class="btn product-btn">Explore More</a>
+          </div>
+        </div>
+    </li>
+    <li class="product-item">
+      <div>
+        <a href="#" class="sliderLink">
+          <h2>wpp/lpp/ad bags</h2>
+          <!-- info time  -->
+        </a>
+        <div class="info">
+          <div class="product-info">
+            <div class="product-info-heading">
+              <h2>wpp/lpp/ad*star bags</h2>
+            </div>
+            <div class="product-info-description">
+              <h3>description</h3>
+              <p>We provide PP woven sacks manufactured without adhesives, employing heat-welding techniques on the
+                fabric. These sacks
+                integrate the strengths of traditional types like paper, PE, and PP, yielding a superior product.
+              </p>
+            </div>
+
+            <div class="product-info-benefits">
+              <h3>benefits</h3>
+              <p>Our durable sacks boast minimal bursting, resist humidity, and feature a convenient valve for easy
+                filling. They are
+                eco-friendly, cost-effective, recyclable, and reusable, with vibrant, non-fading printing.
+                Hermetically
+                sealed, they
+                withstand rough handling, making them ideal for export use.
+              </p>
+            </div>
+            <div class="product-explore">
+
+              <a href="" class="btn product-btn">Explore More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </li>
+    <!-- product-3  -->
+    <li class="product-item">
+      <div>
+        <a href="#" class="sliderLink">
+          <h2>bopp bags</h2>
+          <!-- info time  -->
+        </a>
+        <div class="info">
+          <div class="product-info">
+            <div class="product-info-heading">
+              <h2>bopp bags</h2>
+            </div>
+            <div class="product-info-description">
+              <h3>description</h3>
+              <p>Crafted from top-tier Biaxially Oriented Polypropylene (BOPP) films, our bags exhibit exceptional
+                tensile
+                strength,
+                dimensional stability, waterproofing, and transparency. BOPP Printed Bags offer expanded branding
+                options,
+                empowering
+                our clients to attract buyers effectively.</p>
+            </div>
+
+            <div class="product-info-benefits">
+              <h3>benefits</h3>
+              <p>Our BOPP bags offer superior strength and durability, reducing overall costs with their lightweight
+                design and
+                resistance to breakage. Moisture-proof and recyclable, they feature high gloss finishes, UV
+                inhibitors,
+                and
+                scratch-resistant printing, ideal for marketing in retail.
+              </p>
+            </div>
+            <div class="product-explore">
+
+              <a href="" class="btn product-btn">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <!-- product 4  -->
+    <li class="product-item">
+      <div>
+        <a href="#" class="sliderLink">
+          <h2>rp bags</h2>
+          <!-- info time  -->
+        </a>
+        <div class="info">
+          <div class="product-info">
+            <div class="product-info-heading">
+              <h2>rp bags</h2>
+            </div>
+            <div class="product-info-description">
+              <h3>description</h3>
+              <p>Reprocessed Polypropylene (RPP) bags are eco-friendly alternatives made from recycled
+                polypropylene.
+                They
+                offer
+                durability and sustainability, ideal for various packaging needs while reducing environmental
+                impact.
+              </p>
+            </div>
+
+            <div class="product-info-benefits">
+              <h3>benefits</h3>
+              <p>Reprocessed Polypropylene (RPP) bags are eco-friendly, made from recycled materials, offering
+                durability
+                and
+                sustainability for diverse packaging needs. They reduce waste and environmental impact, promoting a
+                greener future.</p>
+            </div>
+            <div class="product-explore">
+
+              <a href="" class="btn product-btn">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <!-- 5th item start  -->
+    <li class="product-item">
+      <div>
+        <a href="#" class="sliderLink">
+          <h2>biodegradable bags</h2>
+          <!-- info time  -->
+        </a>
+        <div class="info">
+          <div class="product-info">
+            <div class="product-info-heading">
+              <h2>biodegradable bags</h2>
+            </div>
+            <div class="product-info-description">
+              <h3>description</h3>
+              <p>Biodegradable woven bags are sustainable alternatives to traditional plastic bags. Made from
+                natural
+                fibers, they
+                decompose over time, reducing environmental harm and promoting eco-conscious packaging solutions.
+              </p>
+            </div>
+
+            <div class="product-info-benefits">
+              <h3>benefits</h3>
+              <p>Why biodegradable woven bags? The answer is for lessening global warming impact. Biodegradable
+                woven
+                bags
+                combat global
+                warming by addressing plastic pollution and reducing CO2 emissions through eco-friendly
+                decomposition.
+                They support
+                sustainable practices and promote a circular economy for a greener future.</p>
+            </div>
+            <div class="product-explore">
+
+              <a href="" class="btn product-btn">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="product-item">
+      <div>
+        <a href="#" class="sliderLink">
+          <h2>fabric products</h2>
+          <!-- info time  -->
+        </a>
+        <div class="info">
+          <div class="product-info">
+            <div class="product-info-heading">
+              <h2>fabric products</h2>
+            </div>
+            <div class="product-info-description">
+              <h3>description</h3>
+              <p>PP Woven Fabric, also called Polypropylene Woven Fabric, offers robust and cost-effective packaging
+                solutions for
+                diverse industries. JKSons & Bilaspur Mining is a top supplier of PP woven fabric, available in
+                laminated
+                and
+                unlaminated forms, used across various industrial sectors.
+              </p>
+            </div>
+
+            <div class="product-info-benefits">
+              <h3>benefits</h3>
+              <p>PP woven fabric ensures safe transport in industries with cost-effective, versatile options. Widely
+                used
+                in sectors such
+                as bag manufacturing, fertilizers, and food grain packing, JKSons & Bilaspur Mining guarantees
+                quality
+                supply.</p>
+            </div>
+            <div class="product-explore">
+
+              <a href="" class="btn product-btn">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="product-item">
+      <div>
+        <a href="#" class="sliderLink">
+          <h2>fibc products</h2>
+          <!-- info time  -->
+        </a>
+        <div class="info">
+          <div class="product-info">
+            <div class="product-info-heading">
+              <h2>fibc products</h2>
+            </div>
+            <div class="product-info-description">
+              <h3>description</h3>
+              <p>FIBCs, also known as bulk bags or big bags, are versatile and efficient containers used across
+                various
+                industries for
+                storing and transporting bulk materials. These large, flexible bags are made from woven
+                polypropylene
+                or
+                other durable
+                fabrics and are designed to handle heavy loads ranging from hundreds to several thousand kilograms.
+              </p>
+            </div>
+
+            <div class="product-info-benefits">
+              <h3>benefits</h3>
+              <p> FIBCs are known for their ability to maximize storage space, facilitate efficient
+                handling
+                and
+                transportation,
+                and reduce packaging waste compared to traditional methods. They are designed for strength,
+                durability,
+                and ease of use,
+                meeting stringent safety and quality standards for reliable performance in diverse industrial
+                environments.</p>
+            </div>
+            <div class="product-explore">
+
+              <a href="" class="btn product-btn">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+
+
+  </ul>
+</div>
+
+
+.accordion .product-item {
+height: 640px;
+max-height: 80vh;
+/* height: 77vh; */
+min-height: 650px;
+}
+
+.accordion {
+width: 95%;
+min-height: 70vh;
+overflow: hidden;
+margin: 0px auto;
+}
+
+.accordion ul {
+width: 100%;
+display: table;
+table-layout: fixed;
+margin: 0;
+padding: 1rem;
+}
+
+.accordion ul li {
+display: table-cell;
+vertical-align: bottom;
+position: relative;
+width: 16.666%;
+min-height: 650px;
+background-repeat: no-repeat;
+background-position: center center;
+transition: all 1000ms ease-in-out;
+}
+
+.accordion ul li div {
+display: block;
+overflow: hidden;
+width: 100%;
+}
+
+.accordion ul li div a {
+display: block;
+height: 90px;
+width: 50%;
+position: relative;
+z-index: 3;
+vertical-align: bottom;
+padding: 15px 20px;
+box-sizing: border-box;
+color: #fff;
+text-shadow: 1px 1px 2px #000;
+/*filter: invert(100%);*/
+text-decoration: none;
+font-family: Open Sans, sans-serif;
+transition: all 300ms ease-in-out;
+}
+
+.accordion ul li div a * {
+opacity: 1;
+
+margin: 0 0 0 10px;
+width: 100%;
+position: relative;
+z-index: 5;
+white-space: nowrap;
+-webkit-transform: translateX(-20px);
+transform: translateX(-20px);
+-webkit-transition: all 400ms ease-in-out;
+transition: all 400ms ease-in-out;
+}
+
+.accordion ul li div a h2 {
+font-family: Montserrat, sans-serif;
+text-overflow: clip;
+font-size: 24px;
+text-transform: uppercase;
+margin-bottom: 2px;
+/* top: 240px; */
+}
+
+.accordion ul li div .title {
+font-family: Montserrat, sans-serif;
+text-overflow: clip;
+font-size: 32px;
+text-transform: uppercase;
+margin-bottom: 2px;
+top: 210px;
+color: #ffffff;
+text-shadow: 1px 1px 2px #000;
+left: 5%;
+position: absolute;
+opacity: 1;
+}
+
+
+
+.accordion ul li:nth-child(1) {
+background: url("../images/products/pp_bag.png") center/cover no-repeat;
+width: 16%;
+background-position: 10% 50%;
+object-fit: cover;
+/* background-attachment: fixed; */
+background-repeat: no-repeat;
+border-bottom: 3px solid red;
+}
+
+.accordion ul li:nth-child(2) {
+background: url("../images/products/wpp.png") center/cover no-repeat;
+/* background-position: 50% 0%; */
+border-bottom: 3px solid black;
+}
+
+.accordion ul li:nth-child(3) {
+background: url("../images/products/bopp.png") center/cover no-repeat;
+background-position: 50% 0%;
+border-bottom: 3px solid red;
+}
+
+.accordion ul li:nth-child(4) {
+background: url("../images/products/rpbag.png") center/cover no-repeat;
+background-position: 50%;
+border-bottom: 3px solid black;
+}
+
+.accordion ul li:nth-child(5) {
+background: url("../images/products/bio-degradable.jpeg") center/cover no-repeat;
+background-position: 60% 64%;
+border-bottom: 3px solid red;
+}
+
+.accordion ul li:nth-child(6) {
+background: url("../images/products/fabric.png") center/cover no-repeat;
+background-position: 70% 25%;
+border-bottom: 3px solid black;
+}
+
+.accordion ul li:nth-child(7) {
+background: url("../images/products/fibc.png") center/cover no-repeat;
+background-position: 50% 30%;
+border-bottom: 3px solid red;
+}
+
+/*
+.accordion ul li:nth-child(8) {
+background-image:
+url("http://res.cloudinary.com/simpleview/image/upload/v1512147648/clients/scottsdale/TSR_Spa_5ad5c4b7-2134-40d7-b8cf-ca5ba83c67d9.jpg");
+background-position: 50% 30%;
+} */
+.accordion ul li {
+background-size: cover;
+}
+
+.accordion ul:hover li {
+width: 10%;
+}
+
+.accordion ul:hover li:hover {
+width: 90%;
+}
+
+/*.accordion ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }*/
+
+.accordion ul:hover li:hover a * {
+opacity: 1;
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+
+.accordion ul:hover li:hover .title * {
+opacity: 0;
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+
+@media screen and (max-width: 680px) {
+
+body {
+margin: 0;
+}
+
+.accordion {
+height: auto;
+}
+
+.accordion ul li,
+.accordion ul li:hover,
+.accordion ul:hover li,
+.accordion ul:hover li:hover {
+position: relative;
+display: table;
+table-layout: fixed;
+width: 100%;
+-webkit-transition: none;
+transition: none;
+}
+
+.accordion ul li div a * {
+opacity: 1;
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+
+/* .accordion .info {
+display: none;
+} */
+
+.accordion .product-item {
+position: relative;
+box-shadow: var(--dark-shadow);
+}
+
+.accordion .info {
+position: absolute;
+height: 100%;
+z-index: 2;
+background-color: var(--clr-grey-10);
+/* background: Red; */
+/* color: yellow; */
+top: 0;
+right: 0;
+width: 60%;
+overflow: scroll;
+
+}
+
+.accordion .info {
+display: none;
+}
+
+.accordion .product-item:hover .info {
+display: block;
+}
+
+
+.info {
+padding: 1rem;
+}
+
+.product-info-heading h2 {
+text-align: center;
+text-transform: capitalize;
+margin-top: 0;
+margin-bottom: 1.5rem;
+}
+
+.product-info-description h3 {
+font-size: 1rem;
+text-transform: capitalize;
+
+}
+
+.product-info-description p {
+font-size: 0.8rem;
+margin: 0;
+color: var(--clr-grey-5)
+}
+
+.product-info-benefits h3 {
+font-size: 1rem;
+margin-top: 0.5rem;
+text-transform: capitalize;
+
+}
+
+.product-info-benefits p {
+font-size: 0.8rem;
+margin: 0;
+color: var(--clr-grey-5)
+}
+
+.sliderLink {
+transition: var(--transition);
+}
+
+.sliderLink:hover {
+color: var(--clr-primary-bg-1);
+}

@@ -22,6 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	const carouselTrack = document.querySelector(".carousel-track");
 
 	const createSlide = ({ src, description }) => {
+		// if (slideElement.length === 8) {
+		// 	return slideElement;
+		// }
 		const slideElement = document.createElement("div");
 		slideElement.className = "customer-slide";
 

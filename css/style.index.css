@@ -937,238 +937,6 @@ accordian classes
 ============================
  */
 
-.accordion .product-item {
-  height: 640px;
-  max-height: 80vh;
-  /* height: 77vh; */
-  min-height: 650px;
-}
-
-.accordion {
-  width: 95%;
-  min-height: 70vh;
-  overflow: hidden;
-  margin: 0px auto;
-}
-
-.accordion ul {
-  width: 100%;
-  display: table;
-  table-layout: fixed;
-  margin: 0;
-  padding: 1rem;
-}
-
-.accordion ul li {
-  display: table-cell;
-  vertical-align: bottom;
-  position: relative;
-  width: 16.666%;
-  min-height: 650px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  transition: all 1000ms ease-in-out;
-}
-
-.accordion ul li div {
-  display: block;
-  overflow: hidden;
-  width: 100%;
-}
-
-.accordion ul li div a {
-  display: block;
-  height: 90px;
-  width: 50%;
-  position: relative;
-  z-index: 3;
-  vertical-align: bottom;
-  padding: 15px 20px;
-  box-sizing: border-box;
-  color: #fff;
-  text-shadow: 1px 1px 2px #000;
-  /*filter: invert(100%);*/
-  text-decoration: none;
-  font-family: Open Sans, sans-serif;
-  transition: all 300ms ease-in-out;
-}
-
-.accordion ul li div a * {
-  opacity: 1;
-
-  margin: 0 0 0 10px;
-  width: 100%;
-  position: relative;
-  z-index: 5;
-  white-space: nowrap;
-  -webkit-transform: translateX(-20px);
-  transform: translateX(-20px);
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
-}
-
-.accordion ul li div a h2 {
-  font-family: Montserrat, sans-serif;
-  text-overflow: clip;
-  font-size: 24px;
-  text-transform: uppercase;
-  margin-bottom: 2px;
-  /* top: 240px; */
-}
-
-.accordion ul li div .title {
-  font-family: Montserrat, sans-serif;
-  text-overflow: clip;
-  font-size: 32px;
-  text-transform: uppercase;
-  margin-bottom: 2px;
-  top: 210px;
-  color: #ffffff;
-  text-shadow: 1px 1px 2px #000;
-  left: 5%;
-  position: absolute;
-  opacity: 1;
-}
-
-
-
-.accordion ul li:nth-child(1) {
-  background: url("../images/products/pp_bag.png") center/cover no-repeat;
-  width: 16%;
-  background-position: 10% 50%;
-  object-fit: cover;
-  /* background-attachment: fixed; */
-  background-repeat: no-repeat;
-  border-bottom: 3px solid red;
-}
-
-.accordion ul li:nth-child(2) {
-  background: url("../images/products/wpp.png") center/cover no-repeat;
-  /* background-position: 50% 0%; */
-  border-bottom: 3px solid black;
-}
-
-.accordion ul li:nth-child(3) {
-  background: url("../images/products/bopp.png") center/cover no-repeat;
-  background-position: 50% 0%;
-  border-bottom: 3px solid red;
-}
-
-.accordion ul li:nth-child(4) {
-  background: url("../images/products/rpbag.png") center/cover no-repeat;
-  background-position: 50%;
-  border-bottom: 3px solid black;
-}
-
-.accordion ul li:nth-child(5) {
-  background: url("../images/products/bio-degradable.jpeg") center/cover no-repeat;
-  background-position: 60% 64%;
-  border-bottom: 3px solid red;
-}
-
-.accordion ul li:nth-child(6) {
-  background: url("../images/products/fabric.png") center/cover no-repeat;
-  background-position: 70% 25%;
-  border-bottom: 3px solid black;
-}
-
-.accordion ul li:nth-child(7) {
-  background: url("../images/products/fibc.png") center/cover no-repeat;
-  background-position: 50% 30%;
-  border-bottom: 3px solid red;
-}
-
-/* 
-.accordion ul li:nth-child(8) { 
-  background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1512147648/clients/scottsdale/TSR_Spa_5ad5c4b7-2134-40d7-b8cf-ca5ba83c67d9.jpg"); 
-  background-position: 50% 30%;
-} */
-.accordion ul li {
-  background-size: cover;
-}
-
-.accordion ul:hover li {
-  width: 10%;
-}
-
-.accordion ul:hover li:hover {
-  width: 90%;
-}
-
-/*.accordion ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }*/
-
-.accordion ul:hover li:hover a * {
-  opacity: 1;
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
-}
-
-.accordion ul:hover li:hover .title * {
-  opacity: 0;
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
-}
-
-@media screen and (max-width: 680px) {
-
-  body {
-    margin: 0;
-  }
-
-  .accordion {
-    height: auto;
-  }
-
-  .accordion ul li,
-  .accordion ul li:hover,
-  .accordion ul:hover li,
-  .accordion ul:hover li:hover {
-    position: relative;
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    -webkit-transition: none;
-    transition: none;
-  }
-
-  .accordion ul li div a * {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-
-/* .accordion .info {
-  display: none;
-} */
-
-.accordion .product-item {
-  position: relative;
-  box-shadow: var(--dark-shadow);
-}
-
-.accordion .info {
-  position: absolute;
-  height: 100%;
-  z-index: 2;
-  background-color: var(--clr-grey-10);
-  /* background: Red; */
-  /* color: yellow; */
-  top: 0;
-  right: 0;
-  width: 60%;
-  overflow: scroll;
-
-}
-
-.accordion .info {
-  display: none;
-}
-
-.accordion .product-item:hover .info {
-  display: block;
-}
-
 
 
 .product-2 {
@@ -1190,41 +958,7 @@ accordian classes
 }
 
 
-.info {
-  padding: 1rem;
-}
 
-.product-info-heading h2 {
-  text-align: center;
-  text-transform: capitalize;
-  margin-top: 0;
-  margin-bottom: 1.5rem;
-}
-
-.product-info-description h3 {
-  font-size: 1rem;
-  text-transform: capitalize;
-
-}
-
-.product-info-description p {
-  font-size: 0.8rem;
-  margin: 0;
-  color: var(--clr-grey-5)
-}
-
-.product-info-benefits h3 {
-  font-size: 1rem;
-  margin-top: 0.5rem;
-  text-transform: capitalize;
-
-}
-
-.product-info-benefits p {
-  font-size: 0.8rem;
-  margin: 0;
-  color: var(--clr-grey-5)
-}
 
 
 
@@ -1240,13 +974,6 @@ accordian classes
   }
 }
 
-.sliderLink {
-  transition: var(--transition);
-}
-
-.sliderLink:hover {
-  color: var(--clr-primary-bg-1);
-}
 
 
 .product-explore .product-btn {
@@ -1285,6 +1012,142 @@ accordian classes
   }
 }
 
+
+/* //accordion  */
+.product-center {
+  margin: 0;
+  min-height: 100vh;
+  background: #000;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product2-container-wrapper {
+  width: 100vw;
+  /* max-width: 1200px; */
+  /* Optional: Add max-width for responsiveness */
+}
+
+.product2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vmin;
+  overflow: hidden;
+  gap: 1rem;
+  transform: skew(5deg);
+}
+
+.product2-container .card {
+  flex: 1;
+  transition: all 1s ease-in-out;
+  height: 75vmin;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-bottom: 3px solid red;
+  border-left:
+    3px solid red;
+}
+
+
+
+.product2-container .card:hover {
+  flex-grow: 10;
+}
+
+.product2-container .card:hover img {
+  filter: grayscale(0);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product2-container .card img {
+  width: 100%;
+  height: 100%;
+  /* aspect-ratio: 16/9; */
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+  filter: grayscale(50%);
+}
+
+.product2-container .card .card__head {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: var(--radius);
+  background: var(--clr-primary-bg-1);
+  padding: 0.5em;
+  transform: rotate(-90deg);
+  transform-origin: 0% 0%;
+  transition: all 0.5s ease-in-out;
+  min-width: 30vh;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 1.2em;
+  white-space: nowrap;
+}
+
+.product2-container .card:hover .card__head {
+  text-align: center;
+  top: calc(100% - 2em);
+  color: var(--clr-primary-bg-1);
+  background: rgba(0, 0, 0, 0.7);
+  min-width: 100%;
+  font-size: 2em;
+  transform: rotate(0deg) skew(-5deg);
+}
+
+.product2-container .card .card__details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.product2-container .card:hover .card__details {
+  opacity: 0.8;
+}
+
+.product2-container .card .card__details h2,
+.product2-container .card .card__details p {
+  color: white;
+  margin-bottom: 1em;
+  max-width: 70%;
+}
+
+.product2-container .card .card__details .explore-button {
+  padding: 0.5em 1em;
+  background-color: var(--clr-primary-bg-1);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1em;
+  border-radius: var(--radius);
+}
+
+.product2-container .card .card__details .explore-button:hover {
+  background-color: var(--clr-black);
+}
 
 
 /* 
