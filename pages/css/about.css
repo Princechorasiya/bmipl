@@ -319,6 +319,7 @@ body {
       rgba(0, 0, 0, 0.8) 100%),
     url("../../images/hero-img.jpeg") no-repeat center top fixed;
   background-size: 100% 100%;
+  overflow: hidden;
 }
 
 .traffic:first-child {
