@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 	const slidesData = [
-		{ src: "../../images/customers/acc.png", description: "Description 1" },
+		{
+			src: "../../images/customers/acc.png",
+			description: "Description 1",
+		},
 		{
 			src: "../../images/customers/customer2.png",
 			description: "Description 2",
