@@ -1,23 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
 	const slidesData = [
 		{
-			src: "../../images/customers/acc.png",
+			src: "./images/customers/acc.png",
 			description: "Description 1",
 		},
 		{
-			src: "../../images/customers/customer2.png",
+			src: "./images/customers/customer2.png",
 			description: "Description 2",
 		},
 		{
-			src: "../../images/customers/customer3.png",
+			src: "./images/customers/customer3.png",
 			description: "Description 3",
 		},
-		{ src: "../../images/customers/hei.png", description: "Description 4" },
-		{ src: "../../images/customers/lafarge.png", description: "Description 5" },
-		{ src: "../../images/customers/nuv.png", description: "Description 6" },
-		{ src: "../../images/customers/ramcoo.png", description: "Description 7" },
+		{ src: "./images/customers/hei.png", description: "Description 4" },
+		{ src: "./images/customers/lafarge.png", description: "Description 5" },
+		{ src: "./images/customers/nuv.png", description: "Description 6" },
+		{ src: "./images/customers/ramcoo.png", description: "Description 7" },
 		{
-			src: "../../images/customers/ultratechcement.png",
+			src: "./images/customers/ultratechcement.png",
 			description: "Description 8",
 		},
 	];
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			getComputedStyle(document.documentElement).getPropertyValue("--gap-width")
 		);
 
-		carouselTrack.style.setProperty("--total-width", "500px");
+		carouselTrack.style.setProperty("--total-width", "1000px");
 
 		carouselTrack.style.setProperty("--scroll-duration", `${4}s`);
 	};
