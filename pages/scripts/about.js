@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		carouselTrack.style.setProperty("--total-width", "1000px");
 
-		carouselTrack.style.setProperty("--scroll-duration", `${4}s`);
+		carouselTrack.style.setProperty("--scroll-duration", `${10}s`);
 	};
 
 	const updateBlurEffect = () => {
