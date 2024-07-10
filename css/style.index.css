@@ -248,7 +248,7 @@ end of global ccss
  ============================
   */
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -1303,6 +1303,7 @@ contact section start
   background: linear-gradient(rgba(5, 24, 41, 0.8), rgba(5, 24, 41, 0.8)), url("../images/background-img-contact.jpg") center/cover no-repeat;
   position: relative;
   padding: 2rem 0;
+  width: 100%;
 }
 
 .form-title {
@@ -1419,6 +1420,7 @@ contact section start
   .contacts {
     display: flex;
     justify-content: space-between;
+    width: calc(100 - 6px);
   }
 
   .contact {
@@ -1462,7 +1464,8 @@ contact section start
 
 .mii-center {
   position: relative;
-  height: 45vh;
+  height: 40vh;
+  max-height: 250px;
 
   /* padding: 2rem 1rem; */
   /* Optional, for better visibility */
@@ -1495,6 +1498,7 @@ contact section start
   position: absolute;
   width: 100%;
   height: auto;
+  max-height: 220px;
   aspect-ratio: 16/9;
   background: linear-gradient(to bottom,
       #FF9933 33%,
@@ -1526,13 +1530,14 @@ contact section start
 
 .overlay-image {
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   z-index: 2;
   transition: var(--transition);
   transition: opacity 0.5s ease;
+  max-height: 220px;
 
   overflow: hidden;
 
@@ -1565,6 +1570,7 @@ contact section start
   .mii-center {
     width: 45%;
     height: auto;
+    max-height: 100px;
   }
 
   .content {
@@ -1591,6 +1597,7 @@ footer
   display: flex;
   justify-content: center;
   margin-bottom: 1.5rem;
+  padding-top: 1.5rem;
   flex-wrap: wrap;
 }
 

@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //resize behaviour
 const toggleButton = document.getElementById("nav-toggle");
-const navmenu = document.getElementByClass("nav-center");
+const navmenu = document.getElementsByClassName("nav-center");
 
 toggleButton.addEventListener("click", () => {
 	navmenu.classList.toggle("open");

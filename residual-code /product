@@ -1,0 +1,146 @@
+<!-- navbar  -->
+<!-- navbar  -->
+<nav class="navbar">
+  <div class="nav-center open">
+    <div class="nav-header">
+      <img src="../images/logos/bimpl.png" alt="" class="nav-logo" id="nav-logo">
+
+
+      <button type="button" class="nav-toggle" id="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- <end of nav header  -->
+    <div class="nav-link-container">
+
+
+
+      <ul class="nav-links" id="nav-links">
+        <li>
+          <a href="../index.html" class="nav-link">home</a>
+        </li>
+        <li>
+          <a href="about.html" class="nav-link">about</a>
+        </li>
+        <li>
+          <a href="#sustainability" class="nav-link">sustainability</a>
+        </li>
+        <li>
+          <a href="#products" class="nav-link">products</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link">contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="nav-icons">
+      <div class="award-icon">
+        <a href="#" class="award-logo">
+          <span>
+            <i class="fas fa-award"></i>
+          </span>
+        </a>
+      </div>
+      <div class="award-content">
+        <h4>global certified</h4>
+        <p>ISO 9001:2015</p>
+      </div>
+    </div>
+  </div>
+
+
+
+</nav>
+
+
+<!-- end of nav  -->
+
+<!-- hero  -->
+<section class="hero" id="home">
+  <div class="slider">
+    <div class="slides">
+      <div class="slide" id="slide1">
+        <img src="../images/hero-img.jpeg" alt="Image 1">
+        <div class="caption">
+          <h1>INDIA'S LARGEST MANUFACTURER</h1>
+          <p class="typewriter" id="text1"></p>
+        </div>
+        <a href="#" class="btn hero-btn">about us </a>
+      </div>
+      <div class="slide" id="slide2">
+        <img src="../images/hero-img-2.jpeg" alt="Image 2">
+        <div class="caption">
+          <h1>lOCATED</h1>
+          <p class="typewriter" id="text2"></p>
+        </div>
+        <a href="#" class="btn hero-btn"> Our Products </a>
+      </div>
+    </div>
+    <div class="navigation">
+      <button class="btn prev" onclick="prevSlide()">
+        <span class="navigation-icon">
+          &#10094;
+        </span>
+      </button>
+      <button class="btn next" onclick="nextSlide()"><span class="navigation-icon">
+          &#10095;
+        </span></button>
+    </div>
+  </div>
+</section>
+<!-- end of hero section  -->
+
+<div class="section-seperator">
+
+</div>
+
+
+
+<!-- footer  -->
+<button id="back-to-top" title="Back to Top">&#9650;</button>
+<footer class="section footer">
+  <ul class="footer-links">
+    <li>
+      <a href="#home" class="footer-link scroll-link">home</a>
+    </li>
+    <li>
+      <a href="#about" class="footer-link scroll-link">about</a>
+    </li>
+    <li>
+      <a href="#products" class="footer-link scroll-link">products</a>
+    </li>
+    <li>
+      <a href="#services" class="footer-link scroll-link">services</a>
+    </li>
+    <li>
+      <a href="#contact" class="footer-link scroll-link">contact</a>
+    </li>
+  </ul>
+
+  <!-- footer icons  -->
+  <ul class="footer-icons">
+    <li>
+      <a href="https://twitter.com" target="_blank" class="footer-icon">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com" target="_blank" class="footer-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com" target="_blank" class="footer-icon">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  </ul>
+
+  <p class="copyright">
+    copyright &copy; <span id="date"></span>BIMPL All Rights Reserved.
+  </p>
+
+</footer>
+<!-- footer end  -->
