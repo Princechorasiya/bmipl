@@ -1037,8 +1037,8 @@ accordian classes
   align-items: center;
   margin: 10vmin;
   overflow: hidden;
-  gap: 1rem;
-  transform: skew(5deg);
+  /* gap: 1rem; */
+  transform: skew(0);
 }
 
 .product2-container .card {
@@ -1467,7 +1467,8 @@ contact section start
   position: relative;
   height: 40vh;
   max-height: 250px;
-
+  display: flex;
+  justify-content: center;
   /* padding: 2rem 1rem; */
   /* Optional, for better visibility */
 }
@@ -1501,6 +1502,7 @@ contact section start
   height: auto;
   max-height: 220px;
   aspect-ratio: 16/9;
+  max-width: 350px;
   background: linear-gradient(to bottom,
       #FF9933 33%,
       #FFFFFF 33%,
@@ -1531,9 +1533,10 @@ contact section start
 
 .overlay-image {
   position: absolute;
-  width: 90%;
-  height: auto;
-  object-fit: contain;
+  width: 100%;
+  max-width: 350px;
+  /* height: */
+  object-fit: cover;
   object-position: center;
   z-index: 2;
   transition: var(--transition);
