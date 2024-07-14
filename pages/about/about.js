@@ -91,3 +91,46 @@ document.addEventListener("DOMContentLoaded", () => {
 	mask.className = "mask";
 	document.querySelector(".carousel").appendChild(mask);
 });
+
+// AWARD SECTIONS SLIDER
+
+let CS1 = 0;
+const slides = document.querySelectorAll(".award-slide");
+const dots = document.querySelectorAll(".dot");
+
+const init = (n) => {
+	slides.forEach((slide, index) => {
+		slide.style.display = "none";
+		dots.forEach((dot, index) => {
+			dot.classList.remove("active");
+		});
+	});
+	slides[n].style.display = "block";
+	dots[n].classList.add("active");
+};
+document.addEventListener("DOMContentLoaded", init(CS1));
+const next = () => {
+	CS1 >= slides.length - 1 ? (CS1 = 0) : CS1++;
+	init(CS1);
+};
+
+const prev = () => {
+	CS1 <= 0 ? (CS1 = slides.length - 1) : CS1--;
+	init(CS1);
+};
+
+document.querySelector(".award-next").addEventListener("click", next);
+
+document.querySelector(".award-prev").addEventListener("click", prev);
+
+setInterval(() => {
+	next();
+}, 5000);
+
+dots.forEach((dot, i) => {
+	dot.addEventListener("click", () => {
+		console.log(CS1);
+		init(i);
+		CS1 = i;
+	});
+});
