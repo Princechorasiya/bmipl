@@ -170,12 +170,12 @@ const toggleButton = document.getElementById("nav-toggle");
 const navmenu = document.getElementsByClassName("nav-center");
 
 toggleButton.addEventListener("click", () => {
-	navmenu.classList.toggle("open");
+	navmenu[0].classList.toggle("open");
 });
 
 window.addEventListener("resize", () => {
 	if (window.innerWidth >= 768) {
-		navmenu.classList.remove("open");
+		navmenu[0].classList.remove("open");
 	}
 });
 
