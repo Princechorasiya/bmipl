@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../font-awesome/css/all.min.css">
+
+  <link rel=" stylesheet" href="../../css/style.index.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>bmipl</title>
+</head>
+
+<body>
+
+  <!-- navbar  -->
+  <!-- navbar  -->
+  <nav class="navbar">
+    <div class="nav-center open">
+      <div class="nav-header">
+        <img src="../../images/logos/bimpl.png" alt="" class="nav-logo" id="nav-logo">
+
+
+        <button type="button" class="nav-toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <!-- <end of nav header  -->
+      <div class="nav-link-container">
+
+
+
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="../../index.html" class="nav-link">home</a>
+          </li>
+          <li>
+            <a href="../about/about.html" class="nav-link">about</a>
+          </li>
+          <li>
+            <a href="../sustain/sustain.html" class="nav-link">sustainability</a>
+          </li>
+          <li>
+            <a href="../product/product.html" class="nav-link">products</a>
+          </li>
+          <li>
+            <a href="../contact/contact.html" class="nav-link">contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-icons">
+        <div class="award-icon">
+          <a href="#" class="award-logo">
+            <span>
+              <i class="fas fa-award"></i>
+            </span>
+          </a>
+        </div>
+        <div class="award-content">
+          <h4>global certified</h4>
+          <p>ISO 9001:2015</p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </nav>
+
+  <!-- navbar end  -->
+
+  <div class="hero" id="hero">
+
+    <h1 class="main-title">100% recycleable products</h1>
+
+    <!-- <img class="image2" src="../../../images/products/product-title.jpg"> -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" id="svg-mask">
+      <defs>
+        <filter id="maskBlur">
+          <feGaussianBlur stdDeviation="30"></feGaussianBlur>
+        </filter>
+        <mask id="circleMask">
+          <circle id="circle" r="280" fill="white" filter="url(#maskBlur)"></circle>
+        </mask>
+      </defs>
+    </svg>
+
+    <svg id="svgFilter" style="position: fixed;">
+      <filter id="pixelate" x="0" y="0" filterUnits="objectBoundingBox">
+
+        <feGaussianBlur stdDeviation="20"></feGaussianBlur>
+        <feComponentTransfer>
+          <feFuncA type="discrete" tableValues="1 1"></feFuncA>
+        </feComponentTransfer>
+      </filter>
+    </svg>
+  </div>
+
+  <div class="section-seperator">
+
+  </div>
+
+
+
+  <!-- substainabilty section  -->
+
+  <div class="section sustain-intro">
+    <div class="sustain-desc">
+      <div class="sustain-intro-title section-title">
+        <h2>introduction</h2>
+      </div>
+      <div class="sustain-intro-desc">
+        Corporate social responsibility (CSR) is a self-regulating business model that helps a company be socially
+        accountable
+        to itself, its stakeholders, and the public. Engaging in CSR means that, in the ordinary course of business, a
+        company
+        is operating in ways that enhance society and the environment instead of contributing negatively to them.
+        <br>
+        <br>
+        Bilaspur Mining has recognized its responsibility to give back to society and has established various CSR
+        initiatives in
+        order to be a responsible corporate organization. As part of our CSR initiative, we have implemented a number of
+        initiatives to benefit society. .
+      </div>
+    </div>
+    <div class="sustain-img">
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- footer start  -->
+  <footer class="section footer">
+    <ul class="footer-links">
+      <li>
+        <a href="#home" class="footer-link scroll-link">home</a>
+      </li>
+      <li>
+        <a href="#about" class="footer-link scroll-link">about</a>
+      </li>
+      <li>
+        <a href="#products" class="footer-link scroll-link">products</a>
+      </li>
+      <li>
+        <a href="#services" class="footer-link scroll-link">services</a>
+      </li>
+      <li>
+        <a href="#contact" class="footer-link scroll-link">contact</a>
+      </li>
+    </ul>
+
+    <!-- footer icons  -->
+    <ul class="footer-icons">
+      <li>
+        <a href="https://twitter.com" target="_blank" class="footer-icon">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com" target="_blank" class="footer-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com" target="_blank" class="footer-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    </ul>
+
+    <p class="copyright">
+      copyright &copy; <span id="date"></span>BIMPL All Rights Reserved.
+    </p>
+
+  </footer>
+
+
+
+
+  <!-- footer end  -->
+
+  <!-- top button  -->
+  <button id="back-to-top" title="Back to Top">&#9650;</button>
+
+  <!-- footer end  -->
+
+  <!-- top button  -->
+
+  <script src="../../scripts/app.js"></script>
+
+</body>
+
+</html>
